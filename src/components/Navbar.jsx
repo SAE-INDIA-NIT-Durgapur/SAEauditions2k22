@@ -16,7 +16,7 @@ const Navbar = () => {
                
                
             </ul>
-            <div class="d-flex flex-column sim"> <span style={{color:"orangered"}}>Exited for the auditions?</span> <small class="text-primary">Register Now</small> </div>
+            <div class="d-flex flex-column sim"> <span style={{color:"orangered"}}>Excited for the auditions?</span> <small class="text-primary">Register Now</small> </div>
         </div>
     </div>
 </nav>  

@@ -1,5 +1,5 @@
 import React from 'react'
-// import people from '../../assets/people.png';
+import people from '../assets/people.png';
 import ai from '../assets/ai.gif';
 import '../CSS/home.css';
 
@@ -16,8 +16,8 @@ const Home = () => {
       </div> */}
 
       <div className="gpt3__header-content__people">
-        {/* <img src={people} /> */}
-        <p>1,600 people requested access a visit in last 24 hours</p>
+        <img src={people} />
+        <p>70+ people are actively working in this club</p>
       </div>
     </div>
 
