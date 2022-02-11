@@ -1,9 +1,20 @@
-import React from 'react'
+import React,{useState} from 'react'
 import people from '../assets/people.png';
 import ai from '../assets/ai.gif';
 import '../CSS/home.css';
+import { GoogleLogin } from 'react-google-login';
 
 const Home = () => {
+   
+    const [Login, setLogin] = useState(0);
+    
+    const responseGoogle = (response) => {
+        setLogin(1);
+        console.log(response);
+        
+      
+      }
+    // console.log(props.data);
   return (
     <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
@@ -19,8 +30,25 @@ const Home = () => {
         <img src={people} />
         <p>70+ people are actively working in this club</p>
       </div>
-    </div>
+      <div className='me-auto mt-4 '>
+      {
+                (Login==0)?
+                    <div class=" flex-column sim"> <span style={{color:"orangered"}}> 
+                        <GoogleLogin
+                        clientId="1065057197304-8rodo2c5iv0f6ff2bjf5c98pkod0n122.apps.googleusercontent.com"
+                        // buttonText="Login"
+                        onSuccess={responseGoogle}
+                        onFailure={responseGoogle}
+                        theme="dark"
+                        isSignedIn={true}
+                        cookiePolicy={'single_host_origin'}
+                        /></span> 
+                    </div>: <button class="custom-btn btn-13  bold"><spna style={{color:"lightblue"}}>Start</spna></button>
+            }
+            </div>
 
+    </div>
+    
     <div className="gpt3__header-image">
       <img src={ai} />
     </div>

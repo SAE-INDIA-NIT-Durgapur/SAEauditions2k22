@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 import "../CSS/Navbar.css"
+
+
+
+
 const Navbar = () => {
+  
+   
+
   return (
   
     <nav className="navbar navbar-expand-lg navbar-red navbar-dark">
@@ -11,13 +18,13 @@ const Navbar = () => {
               
                 <li className='nav-item active'><a to='/' className='nav-link'>Home</a></li>
                 <li className="nav-item"> <a className="nav-link" href="#services">About</a> </li>
-                <li className="nav-item"> <a to="/register" className="nav-link" >REGISTER</a> </li>
+                {/* <li className="nav-item"> <a to="/register" className="nav-link" >REGISTER</a> </li> */}
                 <li className="nav-item"> <a  className="nav-link" href="#contact">contact</a> </li>
                
                
             </ul>
-            <div class="d-flex flex-column sim"> <span style={{color:"orangered"}}>Excited for the auditions?</span> <small class="text-primary">Register Now</small> </div>
-        </div>
+           
+            </div>
     </div>
 </nav>  
 
