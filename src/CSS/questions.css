@@ -1,4 +1,159 @@
 .btn {
   background:linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%)!important;
   color: #fff !important;
+
+}
+label{
+  color:#81AFDD;
+  padding-left:10px;
+  padding-right:10px;
+  margin-top:5px;
+  font-size: bold !important;
+}
+div.form-group{
+  background:-moz-radial-gradient(circle at 30% -100%, #021931 25%, rgba(4, 44, 84, 1) 85%, rgb(8, 47, 88) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 30% -100%, #021931 25%, rgba(4, 44, 84, 1) 85%, rgb(8, 47, 88) 100%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 30% -100%, #021931 25%, rgba(4, 44, 84, 1) 85%, rgb(8, 47, 88) 100%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 30% -100%, #021931 25%, rgba(4, 44, 84, 1) 85%, rgb(8, 47, 88) 100%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 30% -100%, #021931 25%, rgba(4, 44, 84, 1) 85%, rgb(8, 47, 88) 100%);
+  width: 100%;
+  overflow: hidden;
+
+}
+.form-control{
+   padding:1%;
+   border:none;
+   box-sizing:border-box;
+   margin-top:5px;
+   background-color: #040C18
+   !important;
+   border: 1px solid #363C46 !important;
+   resize: none;
+   border-radius: 5px;
+   position:relative;
+   color:white !important;
+}
+.ques-img{
+  height:200px;width:300px;
+  margin-left: 10px;
+}
+@media only screen and (max-width: 354px){
+  .ques-img{
+    width:245px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 304px){
+  .ques-img{
+    width:195px;
+    height: 150px;
+  }
+}
+/* #root{
+  background: linear-gradient(45deg, #81AFDD, rgb(8, 47, 88), rgba(4, 44, 84, 1), #040C18);
+      background-size: 300% 300%;
+      animation: colors 10s ease infinite;
+}
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+.ques-top{
+  text-align: center;
+  padding-top:4%;
+
+}
+.ques-h{
+  font-weight: bold;
+  font-size:3rem;
+}
+.ques-p{
+  padding-right: 3%;
+  padding-left: 3%;
+  color:#81AFDD;
+  font-size:1.5rem;
+}
+.ques-dash{
+  width:60%;
+  background: var(--gradient-bar);
+  height: 7px;
+  margin-right: 20%;
+  margin-left:20%;
+
+
+}
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #040C18 50%, #18478e 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+.form-cont-bg{
+  width:90%;
+  padding-left: 10%;
+  padding-right: 5%;
+  border-radius: 5px;
+
+}
+@media only screen and (max-width:450px){
+  .form-cont-bg{
+    padding-left: 0%;
+  }
+}
+div.form-group{
+  border-radius: 15px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 1px #2060c0;
 }
