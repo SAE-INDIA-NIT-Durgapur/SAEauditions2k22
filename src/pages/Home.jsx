@@ -2,9 +2,12 @@ import React from 'react'
 // import people from '../../assets/people.png';
 import ai from '../assets/ai.gif';
 import '../CSS/home.css';
+import Navbar from '../components/Navbar';
 
 const Home = () => {
   return (
+    <>
+    <Navbar />
     <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
       <h1 className="gradient__text">Welcome to SAE NITD auditons</h1>
@@ -25,6 +28,7 @@ const Home = () => {
       <img src={ai} />
     </div>
   </div>
+  </>
   )
 }
 

@@ -1,14 +1,13 @@
 import './App.css';
 import React from 'react'
 import Navbar from './components/Navbar';
-import Home from './components/Home';
+import Home from './pages/Home';
 //bootstrap
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {
 return (
         <> 
-       <Navbar></Navbar>
        <Home></Home>
        </>
 )
