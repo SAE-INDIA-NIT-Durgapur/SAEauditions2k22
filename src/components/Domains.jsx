@@ -4,11 +4,15 @@ import '../CSS/domains.css';
 
 const featuresData = [
   {
-    title: 'Management',
+    title: 'Event Management',
     text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
   },
   {
-    title: 'Technical',
+    title: 'Autonomus',
+    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+  },
+  {
+    title: 'Robotics',
     text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
   },
   {

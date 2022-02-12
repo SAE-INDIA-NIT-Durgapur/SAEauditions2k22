@@ -1,19 +1,19 @@
 import React from 'react';
 // import gpt3Logo from '../../logo.svg';
 import '../CSS/footer.css';
+import logo from '../assets/sae_logo.png'
 
 const Footer = () => (
   <div className="gpt3__footer section__padding">
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
-        <img src="" alt="gpt3_logo" />
-        <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
+        <img src={logo} alt="gpt3_logo" />
+        <p>Society of Automotive Engineers NIT Durgapur Chapter Collegative, <br /> All Rights Reserved</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Links</h4>
-        <p>Overons</p>
-        <p>Social Media</p>
-        <p>Counters</p>
+        <p>Home</p>
+        <p>About Us</p>
         <p>Contact</p>
       </div>
       {/* <div className="gpt3__footer-links_div">
@@ -31,7 +31,7 @@ const Footer = () => (
     </div>
 
     <div className="gpt3__footer-copyright">
-      <p>@2022 SAENITD. All rights reserved.</p>
+      <p>@2022 SAEINDIA-NITD. All rights reserved.</p>
     </div>
   </div>
 );

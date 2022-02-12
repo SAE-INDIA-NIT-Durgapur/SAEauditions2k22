@@ -13,8 +13,8 @@ const Aboutus = () => (
     </div>
     <div className="gpt3__whatgpt3-container">
       <Posts title="AAhoran" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
-      <Posts title="TEdxNITDURGAPUR" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
-      <Posts title="SAE exclusive events" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+      <Posts title="TEDxNITDURGAPUR" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+      <Posts title="SAE Exclusive Events" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
     </div>
   </div>
 );
