@@ -19,8 +19,8 @@ const Home = () => {
     <>
     <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
-      <h1 className="gradient__text">Welcome to SAE NITD auditons</h1>
-      <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+      <h1 className="gradient__text">Welcome to SAE-NITD auditons</h1>
+      <p>The SAEINDIA Collegiate Club of NIT Durgapur is exhilarated to announce that the Auditions for 2022 will be kicking off in a short while and we honestly cannot wait to recruit our dream team!</p>
 
       {/* <div className="gpt3__header-content__input">
         <input type="email" placeholder="Your Email Address" />

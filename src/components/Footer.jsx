@@ -7,14 +7,14 @@ const Footer = () => (
   <div className="gpt3__footer section__padding">
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
-        <img src={logo} alt="gpt3_logo" />
-        <p>Society of Automotive Engineers NIT Durgapur Chapter Collegative, <br /> All Rights Reserved</p>
+        <img src={logo} alt="gpt3_logo" style={{width:"50%", height:"50%"}}/>
+      
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Links</h4>
-        <p>Home</p>
+        <a href="https://www.saenitd.com/"><p>Home</p></a>
         <p>About Us</p>
-        <p>Contact</p>
+        {/* <p>Contact</p> */}
       </div>
       {/* <div className="gpt3__footer-links_div">
         <h4>Company</h4>
@@ -24,9 +24,10 @@ const Footer = () => (
       </div> */}
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
-        <p>emaild id</p>
-        <p>085-132567</p>
-        <p>website link</p>
+        <a href="Mailto:sae.nitdgp1@gmail.com"><p>sae.nitdgp1@gmail.com</p></a>
+        <p>  <b>Anurag :</b>  +91 6386 849 227
+        <br/><b>Sukanya :</b> +91 8250 323 647</p>
+        {/* <a href="https://www.saenitd.com/"><p>www.saenitd.com</p></a> */}
       </div>
     </div>
 

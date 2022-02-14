@@ -5,11 +5,11 @@ import '../CSS/domains.css';
 const featuresData = [
   {
     title: 'Event Management',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    text: 'Well the best metaphor could be the string of a necklace without whom the beads are scattered. Management teams role includes filling gaps here and there, which may include logistics, interaction with the administration regarding permissions and stuff,we also have a bunch of content writers who take care of the textual content be it write-ups, poster content, MOUs.',
   },
   {
-    title: 'Autonomus',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+    title: 'Automobile',
+    text: 'Automobile team in general makes automatic robots or self-driving vehicles like Tesla, Google and others have been working on. Similarly manual robotics guys conduct similar workshops where they built manual bots.',
   },
   {
     title: 'Robotics',
@@ -17,11 +17,11 @@ const featuresData = [
   },
   {
     title: 'Web-Developement',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+    text: 'The WebD team of SAE nit Durgapur has kept up the spirits of the club and has designed, developed and conducted a lot of events all the year.',
   },
   {
     title: 'Graphics Designing',
-    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
+    text: 'Being in this field, it express and superimpose our artistic and cinematic minds in different aspects be it posters, trailers, crypTech videos, aftermovies, MAGAZINES merchandise designing, logo designing.',
   },
 ];
 

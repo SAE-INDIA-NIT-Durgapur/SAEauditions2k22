@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto mb-2 mb-lg-0">
               
-                <li className='nav-item active'><a to='/' className='nav-link'>Home</a></li>
+                <li className='nav-item active'><a href='https://www.saenitd.com/' target='_blank' className='nav-link'>Home</a></li>
                 <li className="nav-item"> <a className="nav-link" href="#services">About</a> </li>
                 {/* <li className="nav-item"> <a to="/register" className="nav-link" >REGISTER</a> </li> */}
                 <li className="nav-item"> <a  className="nav-link" href="#contact">contact</a> </li>
