@@ -14,7 +14,7 @@ const Aboutus = () => (
     <div className="gpt3__whatgpt3-container">
       <Posts title="Aarohan" text="As a member club of Team Aavishkar, we conduct Aarohan, eastern India’s second largest techno-management fest.We have organised various events like Electra,Autosharx and many more." />
       <Posts title="TEDxNITDurgapur" text="TEDx is an independently organised talk event under the parent organisation TED. With the sublime motive of spreading unique ideas, innovations and evolving thought processes, TEDx events often host great personalities from all walks of life." />
-      <Posts title="F.I.S.T." text="College events shape the social and intellectual fabric of our college's campus. College students, especially freshmen, want new and authentic ways to connect.We conduct various events all the year round to stand out and improve student engagement with our event ideas." />
+      <Posts title="F.I.S.T." text="The “Forum for Ideas on Science and Technology - F.I.S.T”, which comprises a plethora of events ranging from webinars to workshops. This initiative aims to create a more conducive environment in our institution for carrying out projects utilising the technologies discussed and hopes to promote constructive discussions about the same." />
     </div>
   </div>
 );
