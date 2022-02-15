@@ -27,13 +27,9 @@ const Home = () => {
         <button type="button">Get Started</button>
       </div> */}
 
-      <div className="gpt3__header-content__people">
-        <img src={people} />
-        <p>70+ people are actively working in this club</p>
-      </div>
       <div className='me-auto mt-4 '>
       {
-                (Login==0)?
+                (Login===0)?
                     <div class=" flex-column sim"> <span style={{color:"orangered"}}> 
                         <GoogleLogin
                         clientId="1065057197304-8rodo2c5iv0f6ff2bjf5c98pkod0n122.apps.googleusercontent.com"
@@ -44,7 +40,7 @@ const Home = () => {
                         isSignedIn={true}
                         cookiePolicy={'single_host_origin'}
                         /></span> 
-                    </div>: <button class="custom-btn btn-13  bold"><spna style={{color:"lightblue"}}>Start</spna></button>
+                    </div>: <button class="custom-btn btn-13  bold"><span class="glyphicon glyphicon"style={{color:"lightblue"}}>Start</span></button>
             }
             </div>
 

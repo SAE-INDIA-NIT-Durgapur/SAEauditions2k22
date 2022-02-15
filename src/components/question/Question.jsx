@@ -22,7 +22,7 @@ const Question = () => {
 <div className="bg bg3"></div>
     <div className="ques-top">
       
-    <h1 className="gradient__text ques-h">WELCOME TO SAE-NITD AUDITIONS</h1>
+    <h1 className="ques-h">WELCOME TO SAE-NITD AUDITIONS</h1>
     <div className="ques-dash"></div>
     <p className="ques-p">Good Luck Attempting the Questions! See you in the Next Round!</p>
     </div>
@@ -34,11 +34,11 @@ const Question = () => {
       return (
       <div className="form-group">
         {(item.image===null && item.ques_type==="")?<>
-        <label for="exampleInputEmail1">{item.ques_round} . {item.question_text}</label>
+        <label htmlFor="exampleInputEmail1">{item.ques_round} . {item.question_text}</label>
         <textarea type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your answer"/>
         </>
-        :(item.question_type==="M" && item.image!==null && item.ques_round===17)?<><label for="exampleInputEmail1">{item.ques_round} . {item.question_text}</label>
-        <br /><img src={item.image} className="ques-img" /><br/>
+        :(item.question_type==="M" && item.image!==null && item.ques_round===17)?<><label htmlFor="exampleInputEmail1">{item.ques_round} . {item.question_text}</label>
+        <br /><img src={item.image} className="ques-img" alt='ques-img'/><br/>
         <select name="option" id="option" className="ques_options">
         <option value="" selected disabled hidden>Choose your answer</option>
           <option value="A">A=1</option>
@@ -47,8 +47,8 @@ const Question = () => {
           <option value="D">D=4</option>
           <option value="E">E=5</option>
         </select></>
-        :(item.question_type==="M" && item.image!==null && item.ques_round===15)?<><label for="exampleInputEmail1">{item.ques_round} . {item.question_text}</label>
-        <br /><img src={item.image} className="ques-img" /><br/>
+        :(item.question_type==="M" && item.image!==null && item.ques_round===15)?<><label htmlFor="exampleInputEmail1">{item.ques_round} . {item.question_text}</label>
+        <br /><img src={item.image} className="ques-img" alt='ques-img' /><br/>
         <select name="option" id="option" className="ques_options">
         <option value="" selected disabled hidden>Choose your answer</option>
           <option value="A">A</option>
@@ -57,7 +57,7 @@ const Question = () => {
           <option value="D">D</option>
           
         </select></>
-         :(item.image===null && item.ques_round===16 && item.ques_round===16)?<><label for="exampleInputEmail1">{item.ques_round} . {item.question_text}</label>
+         :(item.image===null && item.ques_round===16 && item.ques_round===16)?<><label htmlFor="exampleInputEmail1">{item.ques_round} . {item.question_text}</label>
          <br/>
          <select name="option" id="option" className="ques_options">
          <option value="" selected disabled hidden>Choose your answer</option>
@@ -68,13 +68,13 @@ const Question = () => {
            
          </select></>
          :(item.question_type==="T" && item.image!==null)?<>
-         <label for="exampleInputEmail1">{item.ques_round} . {item.question_text}</label><br />
-         <img src={item.image} className="ques-img" />
+         <label htmlFor="exampleInputEmail1">{item.ques_round} . {item.question_text}</label><br />
+         <img src={item.image} className="ques-img" alt='ques-img' />
         <textarea type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your answer"/></>
 
 
         :<>
-        <label for="exampleInputEmail1">{item.ques_round} . {item.question_text}</label><br />
+        <label htmlFor="exampleInputEmail1">{item.ques_round} . {item.question_text}</label><br />
         <textarea type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your answer"/>
         </>}
       
@@ -85,8 +85,9 @@ const Question = () => {
     
     })
   }
-  
-  <button type="submit" className="btn button mt-3">Submit</button>
+  <div className="container btn-submit-questions">
+  <button type="submit" className="mt-3 mb-5 custom-btn btn button btn-13  bold">Submit</button>
+  </div>
 </form>
 
     </>

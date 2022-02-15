@@ -1,18 +1,24 @@
+.btn-submit-questions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn {
-  background:linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%)!important;
   color: #fff !important;
-  margin-bottom: 20px;
-  margin-left: 35%;
-  width: 30%;
+  max-width: 50% !important;
+  /* margin-left: 35%; */
 
 }
+
 label{
-  color:#81AFDD;
+  color:#FFF;
   padding-left:10px;
   padding-right:10px;
   margin-top:5px;
   font-size: bold !important;
 }
+
 div.form-group{
   background:-moz-radial-gradient(circle at 30% -100%, #021931 25%, rgba(4, 44, 84, 1) 85%, rgb(8, 47, 88) 100%);
 
@@ -29,6 +35,7 @@ div.form-group{
   background:radial-gradient(circle at 30% -100%, #021931 25%, rgba(4, 44, 84, 1) 85%, rgb(8, 47, 88) 100%);
   width: 100%;
   overflow: hidden;
+  border: none !important;
 
 }
 .form-control{
@@ -36,9 +43,9 @@ div.form-group{
    border:none;
    box-sizing:border-box;
    margin-top:5px;
-   background-color: #040C18
+   background: transparent
    !important;
-   border: 1px solid #363C46 !important;
+   border: none !important;
    resize: none;
    border-radius: 5px;
    position:relative;
@@ -84,25 +91,27 @@ div.form-group{
 .ques-h{
   font-weight: bold;
   font-size:3rem;
+  font-family: 'poopins', sans-serif;
+  color: #ffffff;
 }
 .ques-p{
   padding-right: 3%;
   padding-left: 3%;
-  color:#81AFDD;
+  color:#c7c7c7;
   font-size:1.5rem;
 }
 .ques-dash{
   width:60%;
-  background: var(--gradient-bar);
+  background: #ffffff;
   height: 7px;
   margin-right: 20%;
   margin-left:20%;
 
-
+ 
 }
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #040C18 50%, #18478e 50%);
+  background-image: linear-gradient(-60deg,#03223f  50%,#092296  50%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -158,14 +167,13 @@ div.form-group{
 div.form-group{
   border-radius: 15px;
   margin-top: 10px;
-  box-shadow: 1px 1px 1px #2060c0;
 }
 .ques_options{
   margin-left: 10px;
   width: 250px;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color:#040C18;
+  background: transparent !important;
   color:white !important;
   font-weight: bold;
   padding: 5px;
