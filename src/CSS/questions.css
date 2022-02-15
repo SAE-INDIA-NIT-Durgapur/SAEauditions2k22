@@ -1,6 +1,9 @@
 .btn {
   background:linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%)!important;
   color: #fff !important;
+  margin-bottom: 20px;
+  margin-left: 35%;
+  width: 30%;
 
 }
 label{
@@ -156,4 +159,14 @@ div.form-group{
   border-radius: 15px;
   margin-top: 10px;
   box-shadow: 1px 1px 1px #2060c0;
+}
+.ques_options{
+  margin-left: 10px;
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color:#040C18;
+  color:white !important;
+  font-weight: bold;
+  padding: 5px;
 }
